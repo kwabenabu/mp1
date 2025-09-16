@@ -42,7 +42,7 @@ li{
     padding: auto;
 }
 
-#achievements li{
+li{
     font-size: 3vw;
     /* font-weight: 300; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -63,13 +63,13 @@ img {
     align-items: center;
     
 }
-#refs li{
+/* #refs li{
    display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 7vw;
 
-}
+} */
 main{
 /* padding-top: 10%; */
 height: 100vh;
@@ -252,19 +252,20 @@ p{
 #achievements h2{
     font-size: 2vw;
 }
-/* #refs{
-    margin: 2vh auto;
-    width: 80%;
+#refs {
+       padding-top: 30%;
 }
 #refs th{
     border: 2px solid maroon;
-    padding: 1vh 1vw;
-    text-align: center;
+    /* font-size:calc(16px); */
+    /* padding: 1vh 1vw;
+    text-align: center; */
 }
 #refs td{ border: 2px solid maroon;
-    padding: 1vh 1vw;
-    text-align: center;
-} */
+    /* padding: 1vh 1vw;
+    text-align: center; */
+    /* font-size:calc(16px); */
+}
 /* @media screen and (max-width: 1000px) {
   main { width: 100%; }
 } */
